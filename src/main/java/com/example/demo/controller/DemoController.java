@@ -10,6 +10,6 @@ public class DemoController {
 
 	@GetMapping(path = "")
 	public String getTest() {
-		return "Testing the api deployment to azure...update1";
+		return "Testing the api deployment to azure...update2";
 	}
 }
