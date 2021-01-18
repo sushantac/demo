@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController("/")
 public class DemoController {
 
-	@GetMapping(path = "test")
+	@GetMapping(path = "")
 	public String getTest() {
-		return "Testing the api deployment to azure...";
+		return "Testing the api deployment to azure...update1";
 	}
 }
